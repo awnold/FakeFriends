@@ -2,8 +2,8 @@ import instaloader
 
 SESSION = instaloader.Instaloader()
 
-USER = "fake_friends_bt"    #Email: fakefriendsburner@yahoo.com    Email Password: Fakefriends
-PASS = "Fakefriends"        #instagram birthday just in case Jan 1st 2000
+USER = "<username>"    
+PASS = "<user password"       
 SESSION.login(USER, PASS)
 
 profile = instaloader.Profile.from_username(SESSION.context, "<username of target>")
